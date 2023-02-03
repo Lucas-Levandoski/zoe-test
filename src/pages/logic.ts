@@ -6,7 +6,7 @@ import { company, industry, subTCompany, subTIndustry } from "./objects";
  * Does stuff
  * @param {obj1[]} arr1 is the principal array, the source of index
  * @param {string[]} arr1Keys expects two strings like [ idPropName, valuePropName]
- * @param {obj2[]} arr2 is the principal array, the source of index
+ * @param {obj2[]} arr2 is the secondary array
  * @param {string[]} arr2Keys expects two strings like [ idPropName, valuePropName]
  * @
  */

@@ -1,8 +1,4 @@
-
-
-
 import "./logic";
-
 
 export function Page1Component() {
 

@@ -3,7 +3,9 @@ import { company, industry, subTCompany, subTIndustry } from "./objects";
 
 
 /**
- * Does stuff
+ * Merge two arrays based on input types, searches for the value props for Id and Score and return a merged array.
+ * 
+ * it uses the first array "arr1" id prop to find the same id from the second array "arr2"
  * @param {obj1[]} arr1 is the principal array, the source of index
  * @param {string[]} arr1Keys expects two strings like [ idPropName, valuePropName]
  * @param {obj2[]} arr2 is the secondary array

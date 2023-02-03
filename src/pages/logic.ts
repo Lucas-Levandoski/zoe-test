@@ -1,6 +1,5 @@
 import { IBaseScores } from "./interfaces";
 
-
 /**
  * Merge two arrays based on input types, searches for the value props for Id and Score and return a merged array.
  * 

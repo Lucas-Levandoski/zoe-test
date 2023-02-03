@@ -8,8 +8,6 @@ export function Page1Component() {
   const themes = mergeArrays(company, ["theme", "score"], industry, ["themeId", "avgThemeScore"]);
   const subThemes = mergeArrays(subTCompany, ["subTheme", "score"], subTIndustry, ["subThemeId", "avgSubThemeScore"]);
 
-
-  
   return (
     <div>
       <h3>theme</h3>
